@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jest Snapshot testing suite Matches DOM Snapshot 1`] = `
+<div
+  className="sc-bcXHqe duipyf"
+>
+  <div
+    className="table"
+    role="table"
+  >
+    <div />
+    <div
+      role="rowgroup"
+    >
+      <div
+        onScroll={[Function]}
+        style={
+          Object {
+            "WebkitOverflowScrolling": "touch",
+            "direction": "ltr",
+            "height": 400,
+            "overflow": "auto",
+            "position": "relative",
+            "width": 0,
+            "willChange": "transform",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "height": 0,
+              "pointerEvents": undefined,
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
