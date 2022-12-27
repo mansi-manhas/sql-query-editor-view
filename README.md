@@ -7,6 +7,7 @@ Live site: https://zingy-tiramisu-ab4818.netlify.app/
 - Button for running SQL queries
 - Table for displaying the query results
 - Executing one query
+- Success notification to the user
 - Displaying list of available tables and ability to display their results
 
 ### Dependencies
