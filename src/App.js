@@ -7,7 +7,7 @@ import "ace-builds/src-noconflict/ext-language_tools";
 import { AppWrapper, SideNav, Box, ToggleButton, ButtonWrapper, SvgWrapper } from "./styled.style";
 import executeQuery from './assets/executeQuery.svg';
 
-const { TableData, SideNavList, Header, Spinner }  = React.lazy(() => import("./components"));
+import { TableData, SideNavList, Header, Spinner }  from "./components";
 
 const App = () => {
   const [showTable, setShowTable] = useState(false);

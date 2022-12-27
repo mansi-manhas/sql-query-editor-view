@@ -2,8 +2,8 @@ import React, { useMemo } from "react";
 
 import { useData } from "../hooks/useData";
 
-const Table = React.lazy(() => import("./Table"));
-const Spinner = React.lazy(() => import("./Spinner"));
+import Table from "./Table";
+import Spinner from "./Spinner";
 
 const TableData = ({query, dataFetched}) => {
 
