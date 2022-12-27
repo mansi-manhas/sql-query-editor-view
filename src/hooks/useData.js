@@ -5,7 +5,7 @@ import { useNotification } from "use-toast-notification";
 import { getSampleRequest } from "./utils";
 import { tableNames } from "./consts";
 
-const mockData = React.lazy(() => import("../mockData.json"));
+import mockData from "../mockData.json";
 
 export const useData = (tableName) => {
   const [data, setData] = useState([]);
