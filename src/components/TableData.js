@@ -7,9 +7,7 @@ import Spinner from "./Spinner";
 
 const TableData = ({query, dataFetched}) => {
 
-  const { data, runtime, error } = useData(query);
-
-  console.log('query runtime', runtime);
+  const { data, error } = useData(query);
 
   const columnsData = useMemo(() => {
     if (data.length > 0) {
