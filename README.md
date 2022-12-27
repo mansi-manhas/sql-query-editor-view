@@ -16,12 +16,12 @@ Live site: https://zingy-tiramisu-ab4818.netlify.app/
 - [react-window](https://www.npmjs.com/package/react-window): for implementing virtualization and displaying large number of rows
 - [styled-components](https://www.npmjs.com/package/styled-components): for styling
 - [use-toast-notification](https://www.npmjs.com/package/styled-components): for displaying toast notifications
-- [https://www.npmjs.com/package/react-test-renderer](https://www.npmjs.com/package/react-test-renderer): testing component using snapshots
+- [react-test-renderer](https://www.npmjs.com/package/react-test-renderer): testing component using snapshots
 
 ### Page Load Time
 
-Initial load time: 1248ms
-Avg. load time after initial loading: 506ms
+- Initial load time: 1248ms
+- Avg. load time after initial loading: 506ms
 
 Took the above readings using performance profiler from chrome web tools.
 
@@ -59,7 +59,7 @@ Below are the list of features which will improve the application:
 - query builder functionality
 - clear error messages with reason on why a query did not work (syntax error along with line number, type of error, table does not exist, invalid attributes, etc.)
 
-For data analysts: query builders, saving queries and reusing them, importing queries, exporting queries would be beneficial
+**For data analysts:** query builders, saving queries and reusing them, importing queries, exporting queries would be beneficial
 
 **Competitive analysis**
 
