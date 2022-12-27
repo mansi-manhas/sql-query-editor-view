@@ -79,6 +79,7 @@ export const useData = (tableName) => {
     fetchData(tableName);
     let t1 = performance.now(); //end time
     setRuntime(t1 - t0);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [tableName]);
 
   return { data, runtime, error };
