@@ -5,8 +5,6 @@ import { useNotification } from "use-toast-notification";
 import { getSampleRequest } from "./utils";
 import { tableNames } from "./consts";
 
-import mockData from "../mockData.json";
-
 export const useData = (tableName) => {
   const [data, setData] = useState([]);
   const [error, setError] = useState(false);
@@ -44,11 +42,9 @@ export const useData = (tableName) => {
         const name = tableNames.find((name) => name === tableName.trim());
         setError(false);
         if (!name) {
-          new Promise(function (resolve, reject) {
-            setTimeout(resolve, 0);
-          }).then(() => {
-            setData(mockData);
-          });
+          fetch('data/mockData.json').then((res)=>res.json()).then((response)=>{
+            setData(response)
+          })
         }
         if (name) {
           console.log("authentication", process.env.REACT_APP_API_KEY);
