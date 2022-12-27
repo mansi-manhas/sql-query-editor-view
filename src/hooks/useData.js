@@ -1,11 +1,11 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import alasql from "alasql";
 import { useNotification } from "use-toast-notification";
 
 import { getSampleRequest } from "./utils";
-
 import { tableNames } from "./consts";
-import mockData from "../mockData.json";
+
+const mockData = React.lazy(() => import("../mockData.json"));
 
 export const useData = (tableName) => {
   const [data, setData] = useState([]);
