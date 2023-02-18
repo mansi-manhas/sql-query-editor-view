@@ -2,6 +2,8 @@
 
 Live site: https://zingy-tiramisu-ab4818.netlify.app/
 
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/18692751/219848695-906d5a5a-5ba3-4b72-ad82-16148486a0c7.gif)
+
 **Below is the list of essential features added:**
 - Input for SQL queries (code editor)
 - Button for running SQL queries
